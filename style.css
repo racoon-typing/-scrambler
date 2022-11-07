@@ -12,6 +12,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
     width: 400px;
     height: 300px;
     background-color: #c6c6c6;
@@ -39,4 +40,30 @@
     margin-top: 30px;
     background-color: #ffffff;
     border: none;
+    font-size: 14px;
+}
+
+.form__button:hover {
+    outline: 1px solid #1872fe;
+    background-color: #ffffff;
+    color: black;
+}
+
+.form__button:active {
+    background-color: #1872fe;
+    color: #ffffff;
+}
+
+.message {
+    width: 400px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #c6c6c6;
+} 
+
+.message__text {
+    margin: 0;
+    min-height: 100px;
+    background-color: #ffffff;
+    padding: 10px;
 }
